@@ -16,6 +16,10 @@ public final class MultipartDataBuilder {
     public init(parts: Part...) {
         self.parts = parts
     }
+    
+    public init(parts: [Part]) {
+        self.parts = parts
+    }
 
     // MARK: Body Data
 
